@@ -3,9 +3,12 @@
   --color: orangered;
   --dark-color: #2a2a2a;
   --text-color: var(--dark-color);
+  --border-color: var(--dark-color);
+
   --dark-bg: var(--dark-color);
   --dark-text-color: white;
   --shadow: 4px -2px 40px 9px grey;
+  --dark-border-color: white;
 }
 
 html {
@@ -112,6 +115,7 @@ header .header {
 #toggler:checked + .wrapper {
   --background: var(--dark-bg);
   color: var(--dark-text-color);
+  --border-color: var(--dark-border-color);
 }
 #toggler {
   display: none;
@@ -162,6 +166,37 @@ header .header {
 }
 
 /* <!-- banner --> */
+.banner {
+  margin-top: 7rem;
+  border: 2px solid var(--border-color);
+  box-shadow: var(--shadow);
+  padding: 2rem;
+  border-radius: 50px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.info-content .icon-container {
+  background: var(--color);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: white;
+}
+.info-content div span {
+  font-weight: bolder;
+  font-size: 1.3rem;
+  letter-spacing: 5px;
+}
+.info-content div p {
+  color: var(--color);
+}
+.info-divider {
+  background: grey;
+  width: 2px;
+  height: 70px;
+}
 /* <!-- skills --> */
 /* <!-- projects --> */
 /* <!-- about --> */
