@@ -48,6 +48,13 @@ a {
 }
 /* .joti-one-regular {
 } */
+.title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.title span {
+  border-bottom: 3px solid var(--color);
+}
 
 .wrapper {
   background: var(--background);
@@ -198,7 +205,29 @@ header .header {
   height: 70px;
 }
 /* <!-- skills --> */
+.skills {
+  margin-top: 5rem;
+}
+.skills-container {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.skills-container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills-container > div i {
+  font-size: 3rem;
+}
+
 /* <!-- projects --> */
 /* <!-- about --> */
 /* <!-- contact --> */
 /* <!-- footer --> */
+footer {
+  min-height: 30vh;
+  background: black;
+  color: white;
+  margin-top: 5rem;
+}
