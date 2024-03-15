@@ -1,3 +1,99 @@
-body {
-  background: blue;
+:root {
+  --background: rgb(210, 210, 231);
+  --color: orangered;
+  --dark-color: #2a2a2a;
+  --text-color: var(--dark-color);
 }
+
+html {
+  /* scroll-behavior: smooth */
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80vw;
+  margin: auto;
+}
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.joti-one-regular {
+}
+
+.wrapper {
+  background: var(--background);
+  min-height: 100vh;
+}
+
+/* <!-- dark mode toggler button --> */
+/* <!-- navbar --> */
+header {
+  box-shadow: 4px -2px 40px 9px grey;
+  position: sticky;
+  top: 0;
+  background: var(--background);
+}
+header .header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.logo {
+  font-size: 1.3rem;
+  position: relative;
+}
+.logo :first-child {
+  font-weight: bold;
+  margin-right: 1rem;
+  font-family: 'Joti One', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.line::before {
+  content: '';
+  background: var(--color);
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  left: 35%;
+}
+.navigation {
+  list-style: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.navigation li:hover {
+  color: var(--color);
+  transition: all 0.3s ease-in-out;
+}
+/* <!-- hero section --> */
+/* <!-- banner --> */
+/* <!-- skills --> */
+/* <!-- projects --> */
+/* <!-- about --> */
+/* <!-- contact --> */
+/* <!-- footer --> */
