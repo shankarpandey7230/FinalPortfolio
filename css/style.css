@@ -272,6 +272,40 @@ header .header {
   transition: all 0.5s ease-in;
 }
 /* <!-- contact --> */
+.contact {
+  padding-top: 7rem 0;
+
+  width: 400px;
+  margin: auto;
+  margin-top: 5rem;
+}
+.contact .social {
+  font-size: 4rem;
+  justify-content: space-between;
+}
+.contact h3 {
+  text-align: center;
+  padding: 3rem 0;
+}
+.contact .email-section {
+  background: #000;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 40px;
+
+  gap: 3rem;
+  box-shadow: var(--shadow);
+}
+.contact .email-section span {
+  font-size: 1rem;
+}
+.contact .email-icon {
+  background: var(--color);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
 /* <!-- footer --> */
 footer {
   min-height: 30vh;
