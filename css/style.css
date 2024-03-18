@@ -12,7 +12,7 @@
 }
 
 html {
-  /* scroll-behavior: smooth */
+  scroll-behavior: smooth;
 }
 
 * {
@@ -132,6 +132,7 @@ header .header {
 .hero-section {
   margin-top: 5rem;
   max-height: 60vh;
+  padding-top: 7rem;
   /* box-shadow: var(--shadow); */
 }
 .hero {
@@ -207,6 +208,7 @@ header .header {
 /* <!-- skills --> */
 .skills {
   margin-top: 5rem;
+  padding-top: 7rem;
 }
 .skills-container {
   justify-content: space-between;
@@ -223,6 +225,7 @@ header .header {
 
 /* <!-- projects --> */
 .projects {
+  padding-top: 7rem;
   margin-top: 5rem;
 }
 .projects .project-container {
@@ -273,7 +276,7 @@ header .header {
 }
 /* <!-- contact --> */
 .contact {
-  padding-top: 7rem 0;
+  padding-top: 5rem;
 
   width: 400px;
   margin: auto;
@@ -312,4 +315,27 @@ footer {
   background: black;
   color: white;
   margin-top: 5rem;
+  flex-direction: column;
+}
+footer .top {
+  margin-top: 5rem;
+  gap: 10rem;
+}
+footer .top ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+footer .top ul li {
+  line-height: 1.5rem;
+}
+.goUp {
+  font-size: 2rem;
+  background: var(--color);
+  padding: 0.3rem;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
 }
