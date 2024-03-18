@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-  width: 80vw;
+  width: 80%;
   margin: auto;
   max-width: 1400px;
 }
@@ -222,6 +222,28 @@ header .header {
 }
 
 /* <!-- projects --> */
+.projects {
+  margin-top: 5rem;
+}
+.projects .project-container {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.projects .project-card {
+  box-shadow: var(--shadow);
+  border-radius: 5px;
+  padding-bottom: 3rem;
+}
+/* or we can define the padding bottom to the parent project-card */
+/* .bottom {
+  padding-bottom: 3rem;
+} */
+
+.project-card .links {
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
 /* <!-- about --> */
 /* <!-- contact --> */
 /* <!-- footer --> */
