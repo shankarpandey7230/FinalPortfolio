@@ -393,7 +393,7 @@ footer .top ul li {
   .banner {
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 20%;
+    padding-left: 10%;
   }
   .info-divider {
     display: none;
