@@ -21,7 +21,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .container {
@@ -367,7 +367,7 @@ footer .top ul li {
 
     left: 100vw;
     transition: all 0.5s;
-    overflow-x: hidden;
+    overflow: -moz-hidden-unscrollable;
   }
   .menu .navigation {
     flex-direction: column;
