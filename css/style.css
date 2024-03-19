@@ -367,7 +367,7 @@ footer .top ul li {
 
     left: 100vw;
     transition: all 0.5s;
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .menu .navigation {
     flex-direction: column;
