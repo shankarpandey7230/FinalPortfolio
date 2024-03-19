@@ -123,6 +123,7 @@ header .header {
   --background: var(--dark-bg);
   color: var(--dark-text-color);
   --border-color: var(--dark-border-color);
+  overflow-x: hidden;
 }
 
 #toggler {
@@ -369,7 +370,6 @@ footer .top ul li {
 
     left: 100vw;
     transition: all 0.5s;
-    overflow: -moz-hidden-unscrollable;
   }
   .menu .navigation {
     flex-direction: column;
