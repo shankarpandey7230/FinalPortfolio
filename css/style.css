@@ -125,6 +125,7 @@ header .header {
   color: var(--dark-text-color);
   --border-color: var(--dark-border-color);
 }
+
 #toggler {
   display: none;
 }
@@ -254,6 +255,7 @@ header .header {
   padding: 7rem 0;
   background: rgb(192, 214, 149);
 }
+
 .my-bio h2 {
   letter-spacing: 5px;
   font-size: 3rem;
@@ -365,6 +367,7 @@ footer .top ul li {
 
     left: 100vw;
     transition: all 0.5s;
+    overflow: hidden;
   }
   .menu .navigation {
     flex-direction: column;
