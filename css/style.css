@@ -79,8 +79,9 @@ a {
 /* <!-- navbar --> */
 header {
   box-shadow: var(--shadow);
-  position: sticky;
   top: 0;
+  width: 100vw;
+  position: fixed;
   background: var(--background);
 }
 header .header {
@@ -88,7 +89,6 @@ header .header {
   align-items: center;
   padding: 1rem 0;
 }
-
 .logo {
   font-size: 1.3rem;
   position: relative;
@@ -124,7 +124,6 @@ header .header {
   --background: var(--dark-bg);
   color: var(--dark-text-color);
   --border-color: var(--dark-border-color);
-  overflow-x: hidden;
 }
 
 #toggler {
