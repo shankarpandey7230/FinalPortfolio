@@ -392,10 +392,12 @@ footer .top ul li {
   }
   .hero .right img {
     width: 200px;
+    margin-top: 4rem;
   }
 
   /* banner */
   .banner {
+    margin-top: 10rem;
     flex-direction: column;
     align-items: flex-start;
     padding-left: 10%;
@@ -403,6 +405,7 @@ footer .top ul li {
   .info-divider {
     display: none;
   }
+
   /* projects */
   .projects .project-container {
     grid-template-columns: 1fr;
