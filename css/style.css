@@ -369,7 +369,7 @@ footer .top ul li {
     box-shadow: var(--shadow);
 
     left: 100vw;
-    transition: all 0.5s;
+    transition: all 0.5s ease-in-out;
   }
   .menu .navigation {
     flex-direction: column;
